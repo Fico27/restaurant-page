@@ -1,9 +1,11 @@
-export { loadContent };
+
+import { createMenu } from "./menu.js";
+export { loadContent, createMenu };
 
 
 function loadContent(){
 
-    
+
     const content = document.querySelector("#content");
     const mainHeader = document.createElement('h1');
     const mainImg = document.createElement('img');
@@ -14,8 +16,9 @@ function loadContent(){
     description.innerHTML = 'Come on down to our shop. We are open all hours!'
     
     content.appendChild(mainHeader)
-    content.appendChild(mainImg)
     content.appendChild(description)
+    content.appendChild(mainImg)
+    
 }
 
 
