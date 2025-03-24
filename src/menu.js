@@ -7,9 +7,9 @@ function createMenu(){
     const content = document.querySelector("#content");
     const mainHeader = document.createElement('h1');
 
-    // while(content.firstChild){
-    //     content.removeChild(content.firstChild)
-    // }
+    while(content.firstChild){
+        content.removeChild(content.firstChild)
+    }
 
     mainHeader.innerHTML = "Our Menu"
     content.appendChild(mainHeader)

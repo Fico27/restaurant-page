@@ -1,6 +1,8 @@
 export { createContact }
 
 function createContact() {
+
+    
     const content = document.querySelector("#content");
     const mainHeader = document.createElement('h1');
     mainHeader.innerHTML = "Contact us"

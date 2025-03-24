@@ -6,6 +6,7 @@ export { loadContent, createMenu };
 function loadContent(){
 
 
+
     const content = document.querySelector("#content");
     const mainHeader = document.createElement('h1');
     const mainImg = document.createElement('img');

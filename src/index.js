@@ -9,8 +9,8 @@ const homeButton = document.querySelector(".home")
 const menuButton = document.querySelector(".menu")
 const contactButton = document.querySelector(".contact")
 
-
-homeButton.addEventListener("click", loadContent());
-menuButton.addEventListener("click", createMenu());
-contactButton.addEventListener("click", createContact());
+// loadContent()
+homeButton.addEventListener("click", loadContent);
+menuButton.addEventListener("click", createMenu);
+contactButton.addEventListener("click", createContact);
 
