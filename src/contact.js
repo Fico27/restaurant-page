@@ -1,10 +1,15 @@
 export { createContact }
 
-function createContact() {
 
-    
+function createContact() {
     const content = document.querySelector("#content");
     const mainHeader = document.createElement('h1');
+
+    while(content.firstChild){
+        content.removeChild(content.firstChild)
+    }
+
+
     mainHeader.innerHTML = "Contact us"
 
     content.appendChild(mainHeader)
@@ -15,7 +20,7 @@ function createContact() {
     const phone = document.createElement("p")
     const email = document.createElement("p")
     const name = document.createElement("h3")
-
+    div1.className = "contactCard"
     name.innerHTML = "<strong>Owner:</strong> Beppo The Cheesey Chef"
     phone.innerHTML = "<strong>Phone:</strong> 1-555-8959"
     email.innerHTML = "<strong>Email:</strong> ImARealBoy@NotReal.com"
