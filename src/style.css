@@ -8,7 +8,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     background-image: url("https://thetasteofmontana.com/wp-content/uploads/2023/04/SpicyChoppedCheese-Re-upped-2.jpg");
     background-repeat: repeat-y;
 }
